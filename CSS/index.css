@@ -136,6 +136,7 @@ html,
 body {
   font-family: 'Ubuntu', sans-serif;
   color: ;
+  background: black;
 }
 h1,
 h2,
@@ -160,4 +161,63 @@ p {
   width: 100%;
   margin: 0 auto;
   background: cornflowerblue;
+  border: 1px solid white;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+}
+.icon .far {
+  font-size: 12rem;
+  margin: 30px;
+}
+.icon h1 {
+  font-size: 3rem;
+}
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+textarea {
+  display: flex;
+  width: 80%;
+  height: 200px;
+  margin-bottom: 30px;
+}
+label {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.value1 {
+  display: flex;
+  font-size: 2rem;
+  align-items: flex-end;
+}
+.range {
+  width: 50%;
+  margin-bottom: 30px;
+}
+select {
+  height: 30px;
+  width: 50%;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99px;
+  height: 35px;
+  color: black;
+  background: white;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  margin: 30px;
+}
+button:hover {
+  color: white;
+  background: black;
+  border: 1px solid white;
 }
